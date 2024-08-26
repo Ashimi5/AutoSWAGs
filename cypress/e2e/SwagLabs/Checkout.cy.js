@@ -1,4 +1,4 @@
-describe('SwagLabDemo Tests', () => {
+describe('SwagLabDemonstration Tests', () => {
     
     it('Verify products should be added and removed from the cart remove', () => {
         cy.visit('https://www.saucedemo.com/');
