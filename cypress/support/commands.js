@@ -1,5 +1,7 @@
 // cypress/support/commands.js
 
+//Custom commands using Cypress.Commands.add()
+
 Cypress.Commands.add('login', (username, password) => {
     cy.visit('https://www.saucedemo.com/'); // Navigate to the login page
   
