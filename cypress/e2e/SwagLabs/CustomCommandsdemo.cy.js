@@ -8,7 +8,7 @@ describe('Login Test', () => {
       cy.url().should('include', '/inventory.html'); // Verify that the URL includes '/inventory.html'
       
 
-     // cy.get('.welcome-message').should('contain', 'Welcome, testuser'); // Verify welcome message
+     
     });
   });
   

@@ -39,7 +39,7 @@ describe('SwagLabDemonstration Tests', () => {
         cy.get("#continue").click();
         cy.get("h3[data-test='error']").should('have.text','Error: First Name is required');
         cy.get('#first-name').clear();
-        cy.get("#last-name").clear();
+        cy.get("#last-name").clear();           //Clears the textfiled
         cy.get("#postal-code").clear();
         
     //First name only given
