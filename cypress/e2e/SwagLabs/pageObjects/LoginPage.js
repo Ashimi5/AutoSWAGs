@@ -1,4 +1,4 @@
-// cypress/e2e/pageObjects/LoginPage.js
+// This is Page Object or Page elements
 
 class LoginPage {
     visit() {
