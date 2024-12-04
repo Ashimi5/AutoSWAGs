@@ -1,4 +1,4 @@
-describe('SwagLabDemo Tests', () => {
+describe('SwagLabDemonstration Tests', () => {
     
     it('Verify products should be added and removed from the cart remove', () => {
         cy.visit('https://www.saucedemo.com/');
@@ -39,7 +39,7 @@ describe('SwagLabDemo Tests', () => {
         cy.get("#continue").click();
         cy.get("h3[data-test='error']").should('have.text','Error: First Name is required');
         cy.get('#first-name').clear();
-        cy.get("#last-name").clear();
+        cy.get("#last-name").clear();           //Clears the textfiled
         cy.get("#postal-code").clear();
         
     //First name only given
